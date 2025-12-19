@@ -119,6 +119,22 @@
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {
                     "type": "ResponsiveTable"
+                  },
+                  "actions": {
+                    "sendmail": {
+                      "press": "project1.ext.controller.SendMail.SendMail",
+                      "visible": true,
+                      "enabled": true,
+                      "requiresSelection": false,
+                      "text": "{i18n>sendMail}"
+                    },
+                    "submit": {
+                      "press": "project1.ext.controller.Submit.submit",
+                      "visible": true,
+                      "enabled": true,
+                      "requiresSelection": false,
+                      "text": "SUBMIT"
+                    }
                   }
                 }
               }
